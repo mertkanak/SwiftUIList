@@ -44,6 +44,7 @@ struct ContentView: View {
                     BasicImageRow(restaurant: restaurants[index])
                 }
             }
+            .listRowSeparator(.hidden, edges: .bottom)
         }
         .listStyle(.plain)
     }
